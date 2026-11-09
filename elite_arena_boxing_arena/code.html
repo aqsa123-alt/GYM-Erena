@@ -1,0 +1,745 @@
+<!DOCTYPE html>
+
+<html class="dark" lang="en"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0" name="viewport"/><meta content="web_standard" name="shell-type"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet"/><link href="https://fonts.googleapis.com" rel="preconnect"/><link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/><link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700&amp;family=Space+Grotesk:wght@600;700&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/><style>@layer base{html,body{margin:0;padding:0;}body{overscroll-behavior:none;}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config={darkMode:"class",theme:{extend:{"colors":{"on-secondary":"#283500","tertiary-fixed-dim":"#ffba20","surface-dim":"#121316","inverse-primary":"#aa3600","tertiary":"#ffba20","primary":"#ffb59c","on-tertiary-fixed-variant":"#5e4200","on-primary-fixed-variant":"#822700","on-secondary-fixed-variant":"#3c4d00","primary-container":"#ff5708","secondary-fixed":"#c3f400","on-primary":"#5c1900","surface-tint":"#ffb59c","surface":"#121316","outline-variant":"#5c4037","on-secondary-fixed":"#161e00","surface-container-highest":"#343538","primary-fixed":"#ffdbcf","secondary-container":"#c3f400","background":"#121316","on-secondary-container":"#556d00","surface-bright":"#38393c","surface-container":"#1f1f23","surface-container-high":"#292a2d","on-surface-variant":"#e5beb2","inverse-on-surface":"#2f3034","on-error-container":"#ffdad6","on-surface":"#e3e2e6","on-tertiary":"#412d00","error":"#ffb4ab","tertiary-fixed":"#ffdea8","on-tertiary-container":"#392600","primary-fixed-dim":"#ffb59c","secondary":"#ffffff","tertiary-container":"#bc8700","outline":"#ac897e","surface-container-lowest":"#0d0e11","inverse-surface":"#e3e2e6","secondary-fixed-dim":"#abd600","on-primary-container":"#511500","surface-variant":"#343538","on-tertiary-fixed":"#271900","surface-container-low":"#1b1b1f","on-background":"#e3e2e6","on-error":"#690005","on-primary-fixed":"#390c00","error-container":"#93000a"},"borderRadius":{"DEFAULT":"0.125rem","lg":"0.25rem","xl":"0.5rem","full":"0.75rem"},"spacing":{"margin-mobile":"1.25rem","space-md":"1rem","gutter-mobile":"1rem","margin":"3rem","space-sm":"0.5rem","space-xs":"0.25rem","space-lg":"1.5rem","gutter":"1.5rem","space-xl":"2.5rem"},"fontFamily":{"headline-md":["Space Grotesk"],"body-sm":["Manrope"],"headline-xl-mobile":["Space Grotesk"],"label-sm":["Space Grotesk"],"label-md":["Space Grotesk"],"body-lg":["Manrope"],"headline-sm":["Space Grotesk"],"headline-lg":["Space Grotesk"],"body-md":["Manrope"],"title-md":["Space Grotesk"],"headline-xl":["Space Grotesk"],"label-lg":["Space Grotesk"],"headline-lg-mobile":["Space Grotesk"]},"fontSize":{"headline-md":["28px",{"lineHeight":"36px","letterSpacing":"0em","fontWeight":"600"}],"body-sm":["13px",{"lineHeight":"18px","letterSpacing":"0.01em","fontWeight":"500"}],"headline-xl-mobile":["36px",{"lineHeight":"44px","letterSpacing":"-0.01em","fontWeight":"700"}],"label-sm":["10px",{"lineHeight":"14px","letterSpacing":"0.12em","fontWeight":"700"}],"label-md":["12px",{"lineHeight":"16px","letterSpacing":"0.1em","fontWeight":"600"}],"body-lg":["18px",{"lineHeight":"28px","letterSpacing":"0em","fontWeight":"400"}],"headline-sm":["22px",{"lineHeight":"28px","letterSpacing":"0.01em","fontWeight":"600"}],"headline-lg":["40px",{"lineHeight":"48px","letterSpacing":"-0.01em","fontWeight":"700"}],"body-md":["15px",{"lineHeight":"24px","letterSpacing":"0.01em","fontWeight":"400"}],"title-md":["18px",{"lineHeight":"24px","letterSpacing":"0.02em","fontWeight":"600"}],"headline-xl":["56px",{"lineHeight":"64px","letterSpacing":"-0.02em","fontWeight":"700"}],"label-lg":["14px",{"lineHeight":"18px","letterSpacing":"0.08em","fontWeight":"600"}],"headline-lg-mobile":["28px",{"lineHeight":"36px","letterSpacing":"0em","fontWeight":"700"}]}}}}</script></head><body class="bg-surface font-body-md text-on-surface antialiased selection:bg-primary-container selection:text-on-primary-container"><header class="fixed top-0 left-0 w-full z-50 bg-surface/85 backdrop-blur-xl border-b border-white/10"><div class="h-20 max-w-[1440px] mx-auto px-margin-mobile md:px-gutter lg:px-margin flex items-center justify-between gap-space-md"><div class="flex items-center gap-space-sm shrink-0"><img alt="Elite Arena Logo" class="h-8 w-auto object-contain" src="https://lh3.googleusercontent.com/aida/ALJJyrClLeRgVG5aqKzpzy0dW02V2NZsbmYS4XhwerD2-J2ENemfQlPLu9R6TQcu9XAAvmB5gwwzmrXbZKNJGsWXUfuN-lAEMRNjpgZAl9l3kINZQdEOgmpqmT0pfmanP8H6Ic6nz9vYi91j3u_qrEnGCdUXA-i4zSrqf_NgeXnTf4rzfq4jWebSS0M02XnxhZ_B1j3vX3pzwaaHyKIE7Ta4a9qopYD1VGm96RkNCBMN-1cepQ"/><a class="flex flex-col text-left" data-path="home" href="#"><span class="font-headline-sm text-headline-sm uppercase tracking-wider text-secondary leading-none">ELITE ARENA</span><span class="font-label-sm text-label-sm uppercase tracking-widest text-primary-container leading-tight">Fitness &amp; Sports</span></a></div><nav class="hidden xl:flex items-center gap-space-xs" data-active-classes="text-secondary bg-surface-container-high rounded-lg font-bold"><a class="px-space-sm py-space-xs font-label-md text-label-md uppercase text-on-surface-variant hover:text-secondary hover:bg-surface-container transition-colors" data-path="home" href="#">Home</a><a class="px-space-sm py-space-xs font-label-md text-label-md uppercase text-on-surface-variant hover:text-secondary hover:bg-surface-container transition-colors" data-path="about" href="#">About</a><a class="px-space-sm py-space-xs font-label-md text-label-md uppercase text-on-surface-variant hover:text-secondary hover:bg-surface-container transition-colors" data-path="gym" href="#">Gym</a><a aria-current="page" class="px-space-sm py-space-xs uppercase transition-colors text-secondary bg-surface-container-high rounded-lg font-bold" data-path="boxing" href="#">Boxing</a><a class="px-space-sm py-space-xs font-label-md text-label-md uppercase text-on-surface-variant hover:text-secondary hover:bg-surface-container transition-colors" data-path="badminton" href="#">Badminton</a><a class="px-space-sm py-space-xs font-label-md text-label-md uppercase text-on-surface-variant hover:text-secondary hover:bg-surface-container transition-colors" data-path="membership" href="#">Membership</a><a class="px-space-sm py-space-xs font-label-md text-label-md uppercase text-on-surface-variant hover:text-secondary hover:bg-surface-container transition-colors" data-path="schedule" href="#">Schedule</a><a class="px-space-sm py-space-xs font-label-md text-label-md uppercase text-on-surface-variant hover:text-secondary hover:bg-surface-container transition-colors" data-path="gallery" href="#">Gallery</a><a class="px-space-sm py-space-xs font-label-md text-label-md uppercase text-on-surface-variant hover:text-secondary hover:bg-surface-container transition-colors" data-path="contact" href="#">Contact</a></nav><div class="flex items-center gap-space-sm shrink-0"><a aria-label="WhatsApp Quick Inquiry" class="hidden sm:inline-flex items-center justify-center p-space-sm rounded-lg bg-surface-container-high hover:bg-surface-container-highest text-secondary-fixed transition-colors border border-white/5" href="https://wa.me/" rel="noopener noreferrer" target="_blank"><span class="material-symbols-outlined text-[20px]">chat</span></a><a class="inline-flex items-center justify-center px-space-md py-space-xs rounded-lg bg-primary-container text-on-primary-container font-headline-sm text-label-md uppercase tracking-wider font-bold shadow-[0_0_16px_rgba(255,87,8,0.35)] hover:shadow-[0_0_24px_rgba(255,87,8,0.6)] hover:brightness-110 transition-all" data-path="membership" href="#">JOIN NOW</a><div class="pl-space-xs border-l border-white/10"><img alt="Profile" class="w-8 h-8 rounded-full object-cover ring-1 ring-white/20" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDKDSrqv0OSjY4SXeA4CHJZAph3PGEINkHXI9Wm-idx1jHSY9ngYfQTpjdIdZkyhN4DTgVOsCc1bpiTL8JkTLD5GAmMm5RM0v6q2W-eZLSzCjeKkH_vkzQE0oxufUBrV_ItH2amlowbS-VuBaB2nVsJb3RymAYevrpHdQvUl10xIpXxURzY_ln_XS3VDm-H7yJHx2P2u1m-FXn8k-r9oKt8hl6Vg3NbdU6ZX9YOUzFg"/></div></div></div></header><main class="w-full pt-20 bg-surface min-h-[calc(100vh-20rem)]"><div class="flex flex-col w-full">
+<!-- CINEMATIC HERO SECTION -->
+<section class="relative w-full overflow-hidden -mt-20">
+<!-- Atmospheric Visual Background with Scrim -->
+<div class="absolute inset-0 bg-cover bg-center" data-alt="Cinematic dark atmosphere of an elite competition boxing ring illuminated by a dramatic overhead stadium spotlight cutting through training chalk and mist. Heavy leather ropes tensioned at the corners, raw concrete pillars in deep carbon shadows with neon electric orange flare accents and cinematic depth." style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuCTayEB6NXaqz-i8m6jUX0jg9_5Q61B4mjg29X4WsICkAQNZMdKkiZUFeP2hbJF5bRqtiY9Z9AcnQQo_7CLBAv0rpw6n0TBsLjv-Jei-1A7cW_MBVtRONcDFK-jJRwi6MCAPwK9TiYYEyEgnYUk8XtwNAgBkjW8gEaWwHao5OiBTZLbccrmyYM8RVp9acSTsf7XQNwW1FBUyZwy9R9GRD8N0z6cws6E1dKRLORPwMhd')"></div>
+<div class="absolute inset-0 bg-gradient-to-t from-surface via-surface/85 to-surface-container-lowest/70 backdrop-blur-[2px]"></div>
+<!-- Directional Energy Vector Accents (Inline SVGs) -->
+<div class="absolute top-1/4 right-0 w-96 h-96 bg-primary-container/10 rounded-full blur-3xl pointer-events-none"></div>
+<div class="absolute bottom-10 left-10 w-80 h-80 bg-secondary-fixed/5 rounded-full blur-2xl pointer-events-none"></div>
+<div class="relative z-10 max-w-[1440px] mx-auto px-margin-mobile md:px-gutter lg:px-margin pt-36 pb-24 md:pt-44 md:pb-32 flex flex-col justify-end">
+<!-- Live Status & Overline Badge -->
+<div class="flex flex-wrap items-center gap-space-sm mb-space-md">
+<div class="inline-flex items-center gap-space-xs px-space-sm py-space-xs rounded bg-surface-container-high/90 shadow-md">
+<span class="w-2 h-2 rounded-full bg-primary-container animate-ping"></span>
+<span class="font-label-sm text-label-sm uppercase tracking-wider text-secondary">MAIN COMBAT SECTOR 04</span>
+</div>
+<div class="inline-flex items-center gap-space-xs px-space-sm py-space-xs rounded bg-secondary-container/15 text-secondary-fixed">
+<span class="material-symbols-outlined text-[14px]">verified</span>
+<span class="font-label-sm text-label-sm uppercase tracking-widest">PRO-GRADE SANCTIONED FACILITY</span>
+</div>
+</div>
+<!-- Main Headline & Subtitle -->
+<div class="max-w-4xl flex flex-col gap-space-md">
+<h1 class="font-headline-xl text-headline-xl uppercase text-secondary tracking-tight leading-none drop-shadow-xl">
+          CHAMPIONSHIP BOXING <br class="hidden sm:inline"/>
+<span class="text-primary-container">&amp; COMBAT ARENA</span>
+</h1>
+<p class="font-body-lg text-body-lg text-on-surface-variant max-w-2xl leading-relaxed">
+          Sharpen your reflexes, build explosive power, and master the sweet science inside our professional ring. Designed for contenders, conditioning athletes, and first-time punchers seeking peak athletic precision.
+        </p>
+</div>
+<!-- Hero Actions & Telemetry Strip -->
+<div class="mt-space-xl flex flex-col sm:flex-row items-stretch sm:items-center gap-space-md">
+<a class="inline-flex items-center justify-center px-space-xl py-space-md rounded bg-primary-container text-on-primary-container font-headline-sm text-label-lg uppercase tracking-wider font-bold shadow-xl hover:brightness-110 transition-all text-center" href="#trial-booking">
+          Book Sparring Session
+        </a>
+<a class="inline-flex items-center justify-center px-space-lg py-space-md rounded bg-surface-container-highest/80 hover:bg-surface-container-highest text-secondary font-headline-sm text-label-lg uppercase tracking-wider transition-all text-center" href="#boxing-schedule">
+          Enroll in Boxing Class
+        </a>
+<!-- Fast Stats Cluster -->
+<div class="sm:ml-auto flex items-center gap-space-lg pt-space-md sm:pt-0">
+<div class="flex flex-col">
+<span class="font-headline-md text-headline-md text-secondary leading-none">20<span class="text-primary-container">FT</span></span>
+<span class="font-label-sm text-label-sm uppercase text-on-surface-variant">Elevated Ring</span>
+</div>
+<div class="w-px h-8 bg-surface-container-highest"></div>
+<div class="flex flex-col">
+<span class="font-headline-md text-headline-md text-secondary leading-none">24<span class="text-secondary-fixed">+</span></span>
+<span class="font-label-sm text-label-sm uppercase text-on-surface-variant">Specialist Bags</span>
+</div>
+<div class="w-px h-8 bg-surface-container-highest"></div>
+<div class="flex flex-col">
+<span class="font-headline-md text-headline-md text-secondary leading-none">100<span class="text-primary-container">%</span></span>
+<span class="font-label-sm text-label-sm uppercase text-on-surface-variant">Pro Coaches</span>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- ARENA SPECIFICATIONS & EQUIPMENT MATRIX -->
+<section class="w-full bg-surface-container-lowest py-space-xl">
+<div class="max-w-[1440px] mx-auto px-margin-mobile md:px-gutter lg:px-margin flex flex-col gap-space-xl">
+<!-- Section Header -->
+<div class="flex flex-col md:flex-row md:items-end justify-between gap-space-md">
+<div>
+<span class="font-label-sm text-label-sm uppercase tracking-widest text-primary-container">ENGINEERED FOR IMPACT</span>
+<h2 class="font-headline-lg text-headline-lg uppercase text-secondary tracking-tight mt-space-xs">
+            RING &amp; HARDWARE TELEMETRY
+          </h2>
+</div>
+<p class="font-body-md text-body-md text-on-surface-variant max-w-md">
+          Industrial-grade combat infrastructure calibrated for competition standards, impact absorption, and maximum rotational velocity.
+        </p>
+</div>
+<!-- Bento Grid Layout for Hardware Modules -->
+<div class="grid grid-cols-1 md:grid-cols-12 gap-gutter">
+<!-- Feature 1: The Ring (Large Panel) -->
+<div class="md:col-span-7 rounded-xl bg-surface-container overflow-hidden flex flex-col shadow-xl group">
+<div class="relative h-72 w-full overflow-hidden">
+<div class="w-full h-full bg-cover bg-center group-hover:scale-105 transition-transform duration-700" data-alt="A pristine 20-foot competition boxing ring shot from canvas level with high tension multi-layer ropes, heavy corner pads, custom canvas matting, and professional arena perimeter illumination in high contrast dark tone." style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuDtk2Tts0XRax2OyzVHxhR5d8Q4BUXSnkyLX1EpJTztardOs7MQXVeYdC3POAssi1JAYA_iqx2VAQdViyrygromhi3Ri-vP33lznr4QHDeusMRx9A6pLMIMR30kHwoCSfNVRe7leST8Ohb3vnlKFz-VybpqSwJAzPwutOJS5qxucRYtSJ0M_YzO_AyD7XDvwrbcC2_euCsdBpts466TRvnIaf_X1SXer8gnYzyw3J9e')"></div>
+<div class="absolute inset-0 bg-gradient-to-t from-surface-container via-surface-container/30 to-transparent"></div>
+<div class="absolute top-space-md left-space-md">
+<span class="px-space-sm py-space-xs rounded bg-surface-container-lowest/80 text-secondary-fixed font-label-sm text-label-sm uppercase">USA Boxing &amp; AIBA Specs</span>
+</div>
+</div>
+<div class="p-space-lg flex flex-col gap-space-sm flex-1 justify-between">
+<div>
+<div class="flex items-center justify-between">
+<h3 class="font-headline-md text-headline-md uppercase text-secondary">20ft Regulation Championship Ring</h3>
+<span class="material-symbols-outlined text-primary-container text-28px">sports_mma</span>
+</div>
+<p class="font-body-md text-body-md text-on-surface-variant mt-space-xs leading-relaxed">
+                Elevated steel platform with high-density EVA shock absorbing underlayment, natural treated heavy canvas, and four-tier marine tensioned rope cables designed for realistic ring bounce and zero-slip pivot control.
+              </p>
+</div>
+<!-- Telemetry Spec Tags -->
+<div class="grid grid-cols-3 gap-space-sm pt-space-md">
+<div class="bg-surface-container-high p-space-sm rounded flex flex-col">
+<span class="font-label-sm text-label-sm text-on-surface-variant uppercase">Platform</span>
+<span class="font-title-md text-title-md text-secondary font-bold">36" Elevated</span>
+</div>
+<div class="bg-surface-container-high p-space-sm rounded flex flex-col">
+<span class="font-label-sm text-label-sm text-on-surface-variant uppercase">Underlay</span>
+<span class="font-title-md text-title-md text-secondary font-bold">2.5" Foam Core</span>
+</div>
+<div class="bg-surface-container-high p-space-sm rounded flex flex-col">
+<span class="font-label-sm text-label-sm text-on-surface-variant uppercase">Ropes</span>
+<span class="font-title-md text-title-md text-secondary font-bold">Quad Tension</span>
+</div>
+</div>
+</div>
+</div>
+<!-- Feature 2: Heavy Bag Alley -->
+<div class="md:col-span-5 rounded-xl bg-surface-container overflow-hidden flex flex-col shadow-xl group">
+<div class="relative h-72 w-full overflow-hidden">
+<div class="w-full h-full bg-cover bg-center group-hover:scale-105 transition-transform duration-700" data-alt="Long dramatic industrial corridor with a row of 24 suspended leather boxing heavy bags, water filled aqua bags, and speed bags reflecting warm moody amber side lighting in a raw athletic combat facility." style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuAmZjyQFdHjRSUwNrBXGoUIawiQc4GEekjEniuqhIY34vLOf4w-dNzerQlGWl3s-F9rNG8z-EsTujeyeyWLyraGYAl-2v0nAjwwNW8hFicoEh4DXJEpuTulRUgafjK-_Ae4-JEASqJyVQz4upwvNYSUeH4FLGOEiHCQCjDbBOea048asdu3qi6-SqI--viFx8EeqMkcth6BMnFIYPb72M99haessVK8Av7zzIapom9X')"></div>
+<div class="absolute inset-0 bg-gradient-to-t from-surface-container via-surface-container/30 to-transparent"></div>
+<div class="absolute top-space-md left-space-md">
+<span class="px-space-sm py-space-xs rounded bg-surface-container-lowest/80 text-primary font-label-sm text-label-sm uppercase">24-Station Array</span>
+</div>
+</div>
+<div class="p-space-lg flex flex-col gap-space-sm flex-1 justify-between">
+<div>
+<div class="flex items-center justify-between">
+<h3 class="font-headline-md text-headline-md uppercase text-secondary">The Heavy Bag Alley</h3>
+<span class="material-symbols-outlined text-secondary-fixed text-28px">fitness_center</span>
+</div>
+<p class="font-body-md text-body-md text-on-surface-variant mt-space-xs leading-relaxed">
+                Featuring Cleto Reyes genuine leather teardrop bags, high-mass 150lb banana bags, hydrodynamic Aqua Training Bags for joint-sparing kinetic drills, and adjustable high-velocity speedball platforms.
+              </p>
+</div>
+<!-- Bag Inventory Badges -->
+<div class="flex flex-wrap gap-space-xs pt-space-md">
+<span class="px-space-sm py-space-xs rounded bg-surface-container-high text-secondary font-label-sm text-label-sm">Hydro Aqua Bags</span>
+<span class="px-space-sm py-space-xs rounded bg-surface-container-high text-secondary font-label-sm text-label-sm">Double-End Ball</span>
+<span class="px-space-sm py-space-xs rounded bg-surface-container-high text-secondary font-label-sm text-label-sm">Speed Platforms</span>
+<span class="px-space-sm py-space-xs rounded bg-surface-container-high text-secondary font-label-sm text-label-sm">Angle Uppercut Bags</span>
+</div>
+</div>
+</div>
+<!-- Feature 3: Footwork & Kinetic Conditioning Zone (Full Width Lower Segment) -->
+<div class="md:col-span-12 rounded-xl bg-surface-container-high p-space-lg md:p-space-xl flex flex-col lg:flex-row items-center justify-between gap-space-xl shadow-xl">
+<div class="flex-1 flex flex-col gap-space-sm">
+<span class="font-label-sm text-label-sm uppercase text-secondary-fixed tracking-wider">MOBILITY &amp; EXPLOSIVE POWER</span>
+<h3 class="font-headline-md text-headline-md uppercase text-secondary">Footwork &amp; Conditioning Zone</h3>
+<p class="font-body-md text-body-md text-on-surface-variant leading-relaxed max-w-2xl">
+              Dedicated high-traction shockproof rubber flooring mapped with precision agility grid matrices, weighted jump rope tracks, dual rebounder medicine ball trampolines, and custom plyometric boxes designed to build unstoppably rapid lateral movement.
+            </p>
+<div class="grid grid-cols-2 sm:grid-cols-4 gap-space-md mt-space-md">
+<div class="flex items-center gap-space-sm">
+<span class="material-symbols-outlined text-primary-container">timer</span>
+<span class="font-body-sm text-body-sm text-secondary font-bold">Digitized Round Timers</span>
+</div>
+<div class="flex items-center gap-space-sm">
+<span class="material-symbols-outlined text-primary-container">directions_run</span>
+<span class="font-body-sm text-body-sm text-secondary font-bold">Speed Ladder Tracks</span>
+</div>
+<div class="flex items-center gap-space-sm">
+<span class="material-symbols-outlined text-primary-container">maps_ar</span>
+<span class="font-body-sm text-body-sm text-secondary font-bold">Med-Ball Rebounders</span>
+</div>
+<div class="flex items-center gap-space-sm">
+<span class="material-symbols-outlined text-primary-container">sports_gymnastics</span>
+<span class="font-body-sm text-body-sm text-secondary font-bold">Heavy Battling Ropes</span>
+</div>
+</div>
+</div>
+<!-- Visual Callout Badge with Sparkline Data SVG -->
+<div class="w-full lg:w-80 rounded-lg bg-surface-container-lowest p-space-lg flex flex-col gap-space-md">
+<div class="flex items-center justify-between">
+<span class="font-label-sm text-label-sm uppercase text-on-surface-variant">Output Intensity</span>
+<span class="font-label-md text-label-md text-secondary-fixed font-bold">PEAK CALORIC ZONE</span>
+</div>
+<!-- Inline Mini Graph SVG -->
+<div class="w-full h-16 flex items-end">
+<svg class="w-full h-full text-primary-container" fill="none" viewbox="0 0 280 60">
+<path d="M0 45 L35 48 L70 30 L105 38 L140 18 L175 22 L210 5 L245 15 L280 2" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"></path>
+<path d="M0 45 L35 48 L70 30 L105 38 L140 18 L175 22 L210 5 L245 15 L280 2 L280 60 L0 60 Z" fill="currentColor" fill-opacity="0.12"></path>
+</svg>
+</div>
+<div class="flex justify-between items-center text-body-sm font-body-sm text-on-surface-variant pt-space-xs">
+<span>Average Burn:</span>
+<span class="text-secondary font-bold">850 - 1,100 kcal / hr</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- STRUCTURED BOXING PROGRAMS -->
+<section class="w-full bg-surface py-space-xl">
+<div class="max-w-[1440px] mx-auto px-margin-mobile md:px-gutter lg:px-margin flex flex-col gap-space-xl">
+<!-- Section Intro -->
+<div class="flex flex-col md:flex-row md:items-end justify-between gap-space-md">
+<div>
+<span class="font-label-sm text-label-sm uppercase tracking-widest text-secondary-fixed">PROGRESSION PATHWAYS</span>
+<h2 class="font-headline-lg text-headline-lg uppercase text-secondary tracking-tight mt-space-xs">
+            STRUCTURED BOXING PROGRAMS
+          </h2>
+</div>
+<p class="font-body-md text-body-md text-on-surface-variant max-w-md">
+          From stance mechanics and defense basics to fight-pace sparring camps. Every program is governed by certified combat methodologies.
+        </p>
+</div>
+<!-- 4 Programs Cards Grid -->
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-gutter">
+<!-- Program 1: Fundamentals -->
+<div class="rounded-xl bg-surface-container p-space-lg flex flex-col justify-between shadow-lg hover:shadow-2xl hover:bg-surface-container-high transition-all group">
+<div class="flex flex-col gap-space-md">
+<div class="flex items-center justify-between">
+<span class="px-space-sm py-space-xs rounded bg-surface-container-highest text-secondary font-label-sm text-label-sm uppercase">Level 1 • All Access</span>
+<span class="material-symbols-outlined text-primary group-hover:scale-110 transition-transform">school</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm uppercase text-secondary">
+              Boxing Fundamentals
+            </h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">
+              Master the foundational stance, chin tuck, high guard, jab-cross (1-2) kinetic chains, slips, rolls, and foundational ring movement without contact pressure.
+            </p>
+<div class="flex flex-col gap-space-xs pt-space-sm">
+<div class="flex items-center gap-space-xs font-body-sm text-body-sm text-secondary">
+<span class="material-symbols-outlined text-[16px] text-primary-container">check_circle</span>
+<span>Proper hand wrapping clinic</span>
+</div>
+<div class="flex items-center gap-space-xs font-body-sm text-body-sm text-secondary">
+<span class="material-symbols-outlined text-[16px] text-primary-container">check_circle</span>
+<span>Shadowboxing biomechanics</span>
+</div>
+<div class="flex items-center gap-space-xs font-body-sm text-body-sm text-secondary">
+<span class="material-symbols-outlined text-[16px] text-primary-container">check_circle</span>
+<span>Heavy bag rhythm &amp; distance</span>
+</div>
+</div>
+</div>
+<div class="mt-space-lg pt-space-md bg-surface-container-lowest/40 rounded p-space-sm flex items-center justify-between">
+<span class="font-label-sm text-label-sm uppercase text-on-surface-variant">Class Cap: 16 Athletes</span>
+<a class="font-label-md text-label-md uppercase text-primary-container font-bold hover:underline" href="#trial-booking">Select →</a>
+</div>
+</div>
+<!-- Program 2: Boxing Conditioning & HIIT -->
+<div class="rounded-xl bg-surface-container p-space-lg flex flex-col justify-between shadow-lg hover:shadow-2xl hover:bg-surface-container-high transition-all group">
+<div class="flex flex-col gap-space-md">
+<div class="flex items-center justify-between">
+<span class="px-space-sm py-space-xs rounded bg-primary-container/20 text-primary-container font-label-sm text-label-sm uppercase">Conditioning</span>
+<span class="material-symbols-outlined text-primary-container group-hover:scale-110 transition-transform">local_fire_department</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm uppercase text-secondary">
+              Boxing HIIT &amp; Circuit
+            </h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">
+              A high-cadence 50-minute anaerobic burner combining explosive 3-minute bag rounds, dumbbell uppercuts, battle ropes, and functional core burn.
+            </p>
+<div class="flex flex-col gap-space-xs pt-space-sm">
+<div class="flex items-center gap-space-xs font-body-sm text-body-sm text-secondary">
+<span class="material-symbols-outlined text-[16px] text-secondary-fixed">check_circle</span>
+<span>Zero-sparring cardio intensity</span>
+</div>
+<div class="flex items-center gap-space-xs font-body-sm text-body-sm text-secondary">
+<span class="material-symbols-outlined text-[16px] text-secondary-fixed">check_circle</span>
+<span>Full-body lactic tolerance</span>
+</div>
+<div class="flex items-center gap-space-xs font-body-sm text-body-sm text-secondary">
+<span class="material-symbols-outlined text-[16px] text-secondary-fixed">check_circle</span>
+<span>Real-time HR tracker sync</span>
+</div>
+</div>
+</div>
+<div class="mt-space-lg pt-space-md bg-surface-container-lowest/40 rounded p-space-sm flex items-center justify-between">
+<span class="font-label-sm text-label-sm uppercase text-on-surface-variant">Class Cap: 20 Athletes</span>
+<a class="font-label-md text-label-md uppercase text-primary-container font-bold hover:underline" href="#trial-booking">Select →</a>
+</div>
+</div>
+<!-- Program 3: Advanced Sparring & Fight Camp -->
+<div class="rounded-xl bg-surface-container p-space-lg flex flex-col justify-between shadow-lg hover:shadow-2xl hover:bg-surface-container-high transition-all group">
+<div class="flex flex-col gap-space-md">
+<div class="flex items-center justify-between">
+<span class="px-space-sm py-space-xs rounded bg-surface-container-highest text-secondary-fixed font-label-sm text-label-sm uppercase">Advanced • Screened</span>
+<span class="material-symbols-outlined text-secondary-fixed group-hover:scale-110 transition-transform">sports_kabaddi</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm uppercase text-secondary">
+              Sparring &amp; Fight Camp
+            </h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">
+              Ring-controlled technical sparring, clinch tactics, inside fighting, counter-timing, and corner strategy supervised by licensed referees and coaches.
+            </p>
+<div class="flex flex-col gap-space-xs pt-space-sm">
+<div class="flex items-center gap-space-xs font-body-sm text-body-sm text-secondary">
+<span class="material-symbols-outlined text-[16px] text-primary-container">check_circle</span>
+<span>Headgear &amp; 16oz mandatory</span>
+</div>
+<div class="flex items-center gap-space-xs font-body-sm text-body-sm text-secondary">
+<span class="material-symbols-outlined text-[16px] text-primary-container">check_circle</span>
+<span>Active corner tactical feedback</span>
+</div>
+<div class="flex items-center gap-space-xs font-body-sm text-body-sm text-secondary">
+<span class="material-symbols-outlined text-[16px] text-primary-container">check_circle</span>
+<span>Amateur &amp; Pro bout prep</span>
+</div>
+</div>
+</div>
+<div class="mt-space-lg pt-space-md bg-surface-container-lowest/40 rounded p-space-sm flex items-center justify-between">
+<span class="font-label-sm text-label-sm uppercase text-on-surface-variant">Class Cap: 10 Athletes</span>
+<a class="font-label-md text-label-md uppercase text-primary-container font-bold hover:underline" href="#trial-booking">Select →</a>
+</div>
+</div>
+<!-- Program 4: Youth Academy -->
+<div class="rounded-xl bg-surface-container p-space-lg flex flex-col justify-between shadow-lg hover:shadow-2xl hover:bg-surface-container-high transition-all group">
+<div class="flex flex-col gap-space-md">
+<div class="flex items-center justify-between">
+<span class="px-space-sm py-space-xs rounded bg-surface-container-highest text-secondary font-label-sm text-label-sm uppercase">Ages 8 – 16</span>
+<span class="material-symbols-outlined text-secondary group-hover:scale-110 transition-transform">military_tech</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm uppercase text-secondary">
+              Youth &amp; Junior Academy
+            </h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">
+              Cultivating mental discipline, physical resilience, anti-bullying confidence, and olympic-style boxing mechanics in a safe, constructive community.
+            </p>
+<div class="flex flex-col gap-space-xs pt-space-sm">
+<div class="flex items-center gap-space-xs font-body-sm text-body-sm text-secondary">
+<span class="material-symbols-outlined text-[16px] text-primary-container">check_circle</span>
+<span>Safety-first supervised drills</span>
+</div>
+<div class="flex items-center gap-space-xs font-body-sm text-body-sm text-secondary">
+<span class="material-symbols-outlined text-[16px] text-primary-container">check_circle</span>
+<span>Motor skill coordination</span>
+</div>
+<div class="flex items-center gap-space-xs font-body-sm text-body-sm text-secondary">
+<span class="material-symbols-outlined text-[16px] text-primary-container">check_circle</span>
+<span>Character &amp; respect building</span>
+</div>
+</div>
+</div>
+<div class="mt-space-lg pt-space-md bg-surface-container-lowest/40 rounded p-space-sm flex items-center justify-between">
+<span class="font-label-sm text-label-sm uppercase text-on-surface-variant">Class Cap: 14 Athletes</span>
+<a class="font-label-md text-label-md uppercase text-primary-container font-bold hover:underline" href="#trial-booking">Select →</a>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- BOXING COACH PROFILES -->
+<section class="w-full bg-surface-container-lowest py-space-xl">
+<div class="max-w-[1440px] mx-auto px-margin-mobile md:px-gutter lg:px-margin flex flex-col gap-space-xl">
+<!-- Section Title -->
+<div class="flex flex-col gap-space-xs">
+<span class="font-label-sm text-label-sm uppercase tracking-widest text-primary-container">VETTED FIGHT PEDIGREE</span>
+<h2 class="font-headline-lg text-headline-lg uppercase text-secondary tracking-tight">
+          CORNER LEADERSHIP &amp; PRO COACHES
+        </h2>
+</div>
+<!-- Coaches Row -->
+<div class="grid grid-cols-1 lg:grid-cols-2 gap-gutter">
+<!-- Coach 1: Head Boxing Coach -->
+<div class="rounded-xl bg-surface-container p-space-lg md:p-space-xl flex flex-col sm:flex-row gap-space-lg shadow-xl">
+<div class="w-full sm:w-56 h-64 sm:h-auto rounded-lg overflow-hidden shrink-0 relative">
+<div class="w-full h-full bg-cover bg-center" data-alt="Intense high-contrast portrait of a male boxing head coach with taped hands, fierce focused expression, wearing dark combat gear with dramatic edge rim lighting against an arena background." style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuCbBGtK29qtaPo6jyORcgglejyvmqAwcvfMtEg1NxBKwrq7kRUhIoM6vFW2r2EmDrYqsvca5m1KiYioOknOXQvvOkVB2-FwwSf4HLtmwUfku5-jxnNbBGdaopIa86gXGlNnDn2hf7XinNyD_n8GWpXlerG1OK4A3lCY0XD6H5speLnD4yGn5Vhr2_RA2sdkLJD4uN5RJrs5JDjxHFNmvpcmbiUnmXztkrzJTRrxEsgM')"></div>
+<div class="absolute bottom-2 left-2 bg-surface-container-lowest/90 px-space-xs py-0.5 rounded text-secondary font-label-sm text-label-sm uppercase">
+              Head Coach
+            </div>
+</div>
+<div class="flex flex-col justify-between flex-1 gap-space-sm">
+<div>
+<div class="flex items-center justify-between">
+<h3 class="font-headline-md text-headline-md uppercase text-secondary">Marcus "The Anvil" Vance</h3>
+</div>
+<span class="font-label-md text-label-md text-primary-container uppercase font-bold">2x Golden Gloves Champion • Pro Record (19-2, 14 KOs)</span>
+<p class="font-body-md text-body-md text-on-surface-variant mt-space-sm leading-relaxed">
+                Over 14 years of professional ring experience. Marcus specializes in southpaw counters, inside slip angles, and modern defensive shell adaptations. Has cornerman credits in multiple national title bouts.
+              </p>
+</div>
+<!-- Accreditations & Key Specs -->
+<div class="pt-space-md flex flex-wrap gap-space-xs">
+<span class="px-space-sm py-1 rounded bg-surface-container-high text-secondary font-label-sm text-label-sm">USA Boxing Level 3 Certified</span>
+<span class="px-space-sm py-1 rounded bg-surface-container-high text-secondary font-label-sm text-label-sm">Corner &amp; Cutman Specialist</span>
+<span class="px-space-sm py-1 rounded bg-surface-container-high text-secondary font-label-sm text-label-sm">Biomechanics Specialist</span>
+</div>
+</div>
+</div>
+<!-- Coach 2: Combat S&C Lead -->
+<div class="rounded-xl bg-surface-container p-space-lg md:p-space-xl flex flex-col sm:flex-row gap-space-lg shadow-xl">
+<div class="w-full sm:w-56 h-64 sm:h-auto rounded-lg overflow-hidden shrink-0 relative">
+<div class="w-full h-full bg-cover bg-center" data-alt="Athletic female combat strength and conditioning coach with boxing mitts, focused athletic physique, cinematic moody lighting, dark gym aesthetic with soft neon lime highlights." style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuACDhqkrAuVkOLR7NoxyAJAaKJKY_SFOJ-8mG7pGXLCWFP0-f_lSppHy_96kNMWhm9p78YOFbM5QdM4ra5aCnXocbuuqPwAf60HwjryZxNnsckB5s9cs80yO6uk-2CO2shep2RrNGYGrwSjb2QuQu0o6IBXZBNao1qKF8a6vyfRUtaUbBpkm436itYQGSL9mktiQ_YOIGJ6W8vt2lj0-Www0u_CRMT47KRQeITustd4')"></div>
+<div class="absolute bottom-2 left-2 bg-surface-container-lowest/90 px-space-xs py-0.5 rounded text-secondary font-label-sm text-label-sm uppercase">
+              Combat S&amp;C Lead
+            </div>
+</div>
+<div class="flex flex-col justify-between flex-1 gap-space-sm">
+<div>
+<div class="flex items-center justify-between">
+<h3 class="font-headline-md text-headline-md uppercase text-secondary">Elena "Valkyrie" Rostova</h3>
+</div>
+<span class="font-label-md text-label-md text-secondary-fixed uppercase font-bold">Former WBA Intercontinental Contender • CSCS Elite</span>
+<p class="font-body-md text-body-md text-on-surface-variant mt-space-sm leading-relaxed">
+                Elena merges Olympic weightlifting methodology with fast-twitch rotational punch power. She oversees all fighter conditioning blocks, anaerobic capacity camps, and cutting edge power recovery cycles.
+              </p>
+</div>
+<!-- Accreditations & Key Specs -->
+<div class="pt-space-md flex flex-wrap gap-space-xs">
+<span class="px-space-sm py-1 rounded bg-surface-container-high text-secondary font-label-sm text-label-sm">CSCS Certified</span>
+<span class="px-space-sm py-1 rounded bg-surface-container-high text-secondary font-label-sm text-label-sm">Functional Combat Mobility</span>
+<span class="px-space-sm py-1 rounded bg-surface-container-high text-secondary font-label-sm text-label-sm">Fight Camp Nutritionist</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- WEEKLY BOXING & SPARRING TIMETABLE -->
+<section class="w-full bg-surface py-space-xl" id="boxing-schedule">
+<div class="max-w-[1440px] mx-auto px-margin-mobile md:px-gutter lg:px-margin flex flex-col gap-space-xl">
+<!-- Timetable Header -->
+<div class="flex flex-col md:flex-row md:items-end justify-between gap-space-md">
+<div>
+<span class="font-label-sm text-label-sm uppercase tracking-widest text-secondary-fixed">RING SCHEDULE</span>
+<h2 class="font-headline-lg text-headline-lg uppercase text-secondary tracking-tight mt-space-xs">
+            WEEKLY BOXING &amp; SPARRING TIMETABLE
+          </h2>
+</div>
+<!-- Schedule Legend -->
+<div class="flex flex-wrap items-center gap-space-md font-label-sm text-label-sm uppercase">
+<div class="flex items-center gap-space-xs">
+<span class="w-3 h-3 rounded bg-primary-container"></span>
+<span class="text-secondary">Fundamentals</span>
+</div>
+<div class="flex items-center gap-space-xs">
+<span class="w-3 h-3 rounded bg-secondary-container"></span>
+<span class="text-secondary">HIIT &amp; Bag Work</span>
+</div>
+<div class="flex items-center gap-space-xs">
+<span class="w-3 h-3 rounded bg-surface-bright"></span>
+<span class="text-secondary">Pro / Open Sparring</span>
+</div>
+</div>
+</div>
+<!-- Interactive Day Filter (Pure HTML/JS Micro interaction) -->
+<div class="flex items-center gap-space-xs overflow-x-auto pb-space-xs">
+<button class="schedule-day-btn px-space-md py-space-xs rounded bg-primary-container text-on-primary-container font-label-md text-label-md uppercase font-bold transition-all" onclick="filterDay('all', this)">All Days</button>
+<button class="schedule-day-btn px-space-md py-space-xs rounded bg-surface-container text-on-surface-variant hover:text-secondary font-label-md text-label-md uppercase font-bold transition-all" onclick="filterDay('mon-wed-fri', this)">Mon • Wed • Fri</button>
+<button class="schedule-day-btn px-space-md py-space-xs rounded bg-surface-container text-on-surface-variant hover:text-secondary font-label-md text-label-md uppercase font-bold transition-all" onclick="filterDay('tue-thu', this)">Tue • Thu</button>
+<button class="schedule-day-btn px-space-md py-space-xs rounded bg-surface-container text-on-surface-variant hover:text-secondary font-label-md text-label-md uppercase font-bold transition-all" onclick="filterDay('weekend', this)">Saturday • Sunday</button>
+</div>
+<!-- Schedule Table Module -->
+<div class="rounded-xl bg-surface-container overflow-hidden shadow-xl">
+<div class="overflow-x-auto">
+<table class="w-full text-left border-collapse">
+<thead>
+<tr class="bg-surface-container-high text-on-surface-variant font-label-sm text-label-sm uppercase tracking-wider">
+<th class="p-space-md">Time Slot</th>
+<th class="p-space-md">Session Name</th>
+<th class="p-space-md">Arena Zone</th>
+<th class="p-space-md">Lead Coach</th>
+<th class="p-space-md">Intensity</th>
+<th class="p-space-md text-right">Access</th>
+</tr>
+</thead>
+<tbody class="font-body-md text-body-md text-secondary" id="schedule-tbody">
+<!-- Slot 1 -->
+<tr class="schedule-row hover:bg-surface-container-high/60 transition-colors" data-day="mon-wed-fri">
+<td class="p-space-md font-headline-sm text-title-md text-primary font-bold">06:00 – 07:15 AM</td>
+<td class="p-space-md">
+<div class="font-headline-sm text-title-md uppercase text-secondary">Dawn Fight Conditioning</div>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Aerobic capacity, jump rope, heavy bag volume</span>
+</td>
+<td class="p-space-md font-label-md text-label-md text-on-surface-variant uppercase">Heavy Bag Alley</td>
+<td class="p-space-md text-secondary font-bold">Elena Rostova</td>
+<td class="p-space-md">
+<span class="px-space-sm py-0.5 rounded bg-primary-container/20 text-primary-container font-label-sm text-label-sm uppercase font-bold">Level 4 / 5</span>
+</td>
+<td class="p-space-md text-right">
+<a class="px-space-sm py-space-xs rounded bg-surface-container-highest hover:bg-primary-container hover:text-on-primary-container text-secondary font-label-sm text-label-sm uppercase transition-colors inline-block" href="#trial-booking">Enroll</a>
+</td>
+</tr>
+<!-- Slot 2 -->
+<tr class="schedule-row hover:bg-surface-container-high/60 transition-colors" data-day="mon-wed-fri tue-thu">
+<td class="p-space-md font-headline-sm text-title-md text-primary font-bold">12:15 – 01:15 PM</td>
+<td class="p-space-md">
+<div class="font-headline-sm text-title-md uppercase text-secondary">Lunch Power Rounds (HIIT)</div>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Fast 45-min combat circuit, mitt focus, core blast</span>
+</td>
+<td class="p-space-md font-label-md text-label-md text-on-surface-variant uppercase">Conditioning Hub</td>
+<td class="p-space-md text-secondary font-bold">Staff Pro Cadre</td>
+<td class="p-space-md">
+<span class="px-space-sm py-0.5 rounded bg-secondary-container/20 text-secondary-fixed font-label-sm text-label-sm uppercase font-bold">Level 3 / 5</span>
+</td>
+<td class="p-space-md text-right">
+<a class="px-space-sm py-space-xs rounded bg-surface-container-highest hover:bg-primary-container hover:text-on-primary-container text-secondary font-label-sm text-label-sm uppercase transition-colors inline-block" href="#trial-booking">Enroll</a>
+</td>
+</tr>
+<!-- Slot 3 -->
+<tr class="schedule-row hover:bg-surface-container-high/60 transition-colors" data-day="tue-thu">
+<td class="p-space-md font-headline-sm text-title-md text-primary font-bold">04:30 – 05:30 PM</td>
+<td class="p-space-md">
+<div class="font-headline-sm text-title-md uppercase text-secondary">Junior &amp; Youth Boxing Academy</div>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Ages 8-16 technical drill work &amp; ring ethics</span>
+</td>
+<td class="p-space-md font-label-md text-label-md text-on-surface-variant uppercase">Sector Ring 2</td>
+<td class="p-space-md text-secondary font-bold">Marcus Vance</td>
+<td class="p-space-md">
+<span class="px-space-sm py-0.5 rounded bg-surface-container-highest text-secondary font-label-sm text-label-sm uppercase font-bold">Youth Dev</span>
+</td>
+<td class="p-space-md text-right">
+<a class="px-space-sm py-space-xs rounded bg-surface-container-highest hover:bg-primary-container hover:text-on-primary-container text-secondary font-label-sm text-label-sm uppercase transition-colors inline-block" href="#trial-booking">Enroll</a>
+</td>
+</tr>
+<!-- Slot 4 -->
+<tr class="schedule-row hover:bg-surface-container-high/60 transition-colors" data-day="mon-wed-fri">
+<td class="p-space-md font-headline-sm text-title-md text-primary font-bold">06:00 – 07:30 PM</td>
+<td class="p-space-md">
+<div class="font-headline-sm text-title-md uppercase text-secondary">Boxing Foundations &amp; Pad Tech</div>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Stance, jab-cross, defensive guard checks &amp; counters</span>
+</td>
+<td class="p-space-md font-label-md text-label-md text-on-surface-variant uppercase">Full Arena Floor</td>
+<td class="p-space-md text-secondary font-bold">Marcus Vance</td>
+<td class="p-space-md">
+<span class="px-space-sm py-0.5 rounded bg-primary-container/20 text-primary-container font-label-sm text-label-sm uppercase font-bold">Level 2 / 5</span>
+</td>
+<td class="p-space-md text-right">
+<a class="px-space-sm py-space-xs rounded bg-surface-container-highest hover:bg-primary-container hover:text-on-primary-container text-secondary font-label-sm text-label-sm uppercase transition-colors inline-block" href="#trial-booking">Enroll</a>
+</td>
+</tr>
+<!-- Slot 5 -->
+<tr class="schedule-row hover:bg-surface-container-high/60 transition-colors" data-day="tue-thu weekend">
+<td class="p-space-md font-headline-sm text-title-md text-primary font-bold">07:30 – 09:30 PM</td>
+<td class="p-space-md">
+<div class="font-headline-sm text-title-md uppercase text-secondary">Sanctioned Sparring &amp; Fighter Camp</div>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Ring action, 3-min rounds, tactical corner debriefs</span>
+</td>
+<td class="p-space-md font-label-md text-label-md text-on-surface-variant uppercase">20ft Main Ring</td>
+<td class="p-space-md text-secondary font-bold">Vance &amp; Rostova</td>
+<td class="p-space-md">
+<span class="px-space-sm py-0.5 rounded bg-error-container text-on-error-container font-label-sm text-label-sm uppercase font-bold">Pro / Hard</span>
+</td>
+<td class="p-space-md text-right">
+<a class="px-space-sm py-space-xs rounded bg-primary-container text-on-primary-container font-label-sm text-label-sm uppercase font-bold hover:brightness-110 transition-all inline-block" href="#trial-booking">Book Slot</a>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+</section>
+<!-- CLASS ENROLLMENT & TRIAL SESSION BOOKING FORM -->
+<section class="w-full bg-surface-container-lowest py-space-xl" id="trial-booking">
+<div class="max-w-[1440px] mx-auto px-margin-mobile md:px-gutter lg:px-margin">
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-gutter items-start">
+<!-- Left Column: Context & Guarantees -->
+<div class="lg:col-span-5 flex flex-col gap-space-lg">
+<div class="flex flex-col gap-space-xs">
+<span class="font-label-sm text-label-sm uppercase tracking-widest text-primary-container">FIRST STEP IN THE RING</span>
+<h2 class="font-headline-lg text-headline-lg uppercase text-secondary tracking-tight">
+              BOOK YOUR TRIAL OR ENROLL IN FIGHT CAMP
+            </h2>
+<p class="font-body-md text-body-md text-on-surface-variant leading-relaxed mt-space-sm">
+              Whether you are putting on boxing gloves for the first time or prepping for an upcoming card, our staff will calibrate your entry session.
+            </p>
+</div>
+<!-- Feature Bullets -->
+<div class="flex flex-col gap-space-md">
+<div class="p-space-md rounded-lg bg-surface-container flex items-start gap-space-md">
+<span class="material-symbols-outlined text-primary-container text-28px">shield</span>
+<div>
+<h4 class="font-title-md text-title-md uppercase text-secondary">Free Gear Onboarding</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Sanitized 16oz training gloves, quick-wrap assistance, and jump ropes provided on your first trial visit.</p>
+</div>
+</div>
+<div class="p-space-md rounded-lg bg-surface-container flex items-start gap-space-md">
+<span class="material-symbols-outlined text-secondary-fixed text-28px">verified_user</span>
+<div>
+<h4 class="font-title-md text-title-md uppercase text-secondary">Skill Assessment Guarantee</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Direct 1-on-1 assessment by coach before any sparring sessions to ensure fighter safety and ring etiquette.</p>
+</div>
+</div>
+<div class="p-space-md rounded-lg bg-surface-container flex items-start gap-space-md">
+<span class="material-symbols-outlined text-primary text-28px">water_drop</span>
+<div>
+<h4 class="font-title-md text-title-md uppercase text-secondary">Locker &amp; Recovery Access</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Complimentary access to cold plunge and sauna facilities post-session to flush lactic acid.</p>
+</div>
+</div>
+</div>
+</div>
+<!-- Right Column: Interactive Booking Form -->
+<div class="lg:col-span-7 bg-surface-container p-space-lg md:p-space-xl rounded-xl shadow-2xl">
+<form class="flex flex-col gap-space-md" id="arena-booking-form" onsubmit="handleBoxingBooking(event)">
+<div class="grid grid-cols-1 sm:grid-cols-2 gap-space-md">
+<!-- Full Name -->
+<div class="flex flex-col gap-space-xs">
+<label class="font-label-sm text-label-sm uppercase tracking-wider text-secondary">Athlete Full Name *</label>
+<input class="w-full px-space-md py-space-sm rounded bg-surface-container-lowest text-secondary placeholder:text-on-surface-variant/50 font-body-md text-body-md focus:outline-none focus:ring-1 focus:ring-primary-container" placeholder="e.g. Cole Mercer" required="" type="text"/>
+</div>
+<!-- Email -->
+<div class="flex flex-col gap-space-xs">
+<label class="font-label-sm text-label-sm uppercase tracking-wider text-secondary">Athlete Email *</label>
+<input class="w-full px-space-md py-space-sm rounded bg-surface-container-lowest text-secondary placeholder:text-on-surface-variant/50 font-body-md text-body-md focus:outline-none focus:ring-1 focus:ring-primary-container" placeholder="cole@athlete.com" required="" type="email"/>
+</div>
+</div>
+<div class="grid grid-cols-1 sm:grid-cols-2 gap-space-md">
+<!-- Phone -->
+<div class="flex flex-col gap-space-xs">
+<label class="font-label-sm text-label-sm uppercase tracking-wider text-secondary">Phone Number *</label>
+<input class="w-full px-space-md py-space-sm rounded bg-surface-container-lowest text-secondary placeholder:text-on-surface-variant/50 font-body-md text-body-md focus:outline-none focus:ring-1 focus:ring-primary-container" placeholder="+1 (555) 019-2834" required="" type="tel"/>
+</div>
+<!-- Program Selector -->
+<div class="flex flex-col gap-space-xs">
+<label class="font-label-sm text-label-sm uppercase tracking-wider text-secondary">Interested Program *</label>
+<select class="w-full px-space-md py-space-sm rounded bg-surface-container-lowest text-secondary font-body-md text-body-md focus:outline-none focus:ring-1 focus:ring-primary-container">
+<option>Boxing Fundamentals (Beginner)</option>
+<option>Boxing Conditioning &amp; HIIT</option>
+<option>Advanced Sparring &amp; Fight Camp</option>
+<option>Youth &amp; Junior Boxing Academy</option>
+<option>1-on-1 Pro Private Padwork</option>
+</select>
+</div>
+</div>
+<!-- Skill Level Selector (Segmented Badges) -->
+<div class="flex flex-col gap-space-xs">
+<label class="font-label-sm text-label-sm uppercase tracking-wider text-secondary">Athletic &amp; Ring Experience Level *</label>
+<div class="grid grid-cols-3 gap-space-sm">
+<label class="cursor-pointer">
+<input checked="" class="peer sr-only" name="skill_level" type="radio" value="beginner"/>
+<div class="p-space-sm rounded bg-surface-container-lowest text-center peer-checked:bg-primary-container peer-checked:text-on-primary-container text-on-surface-variant font-label-md text-label-md uppercase font-bold transition-all">
+                    Beginner
+                  </div>
+</label>
+<label class="cursor-pointer">
+<input class="peer sr-only" name="skill_level" type="radio" value="intermediate"/>
+<div class="p-space-sm rounded bg-surface-container-lowest text-center peer-checked:bg-primary-container peer-checked:text-on-primary-container text-on-surface-variant font-label-md text-label-md uppercase font-bold transition-all">
+                    Intermediate
+                  </div>
+</label>
+<label class="cursor-pointer">
+<input class="peer sr-only" name="skill_level" type="radio" value="fighter"/>
+<div class="p-space-sm rounded bg-surface-container-lowest text-center peer-checked:bg-primary-container peer-checked:text-on-primary-container text-on-surface-variant font-label-md text-label-md uppercase font-bold transition-all">
+                    Fighter / Sparring
+                  </div>
+</label>
+</div>
+</div>
+<div class="grid grid-cols-1 sm:grid-cols-2 gap-space-md">
+<!-- Date Picker -->
+<div class="flex flex-col gap-space-xs">
+<label class="font-label-sm text-label-sm uppercase tracking-wider text-secondary">Preferred Date *</label>
+<input class="w-full px-space-md py-space-sm rounded bg-surface-container-lowest text-secondary font-body-md text-body-md focus:outline-none focus:ring-1 focus:ring-primary-container" required="" type="date"/>
+</div>
+<!-- Time Slot -->
+<div class="flex flex-col gap-space-xs">
+<label class="font-label-sm text-label-sm uppercase tracking-wider text-secondary">Preferred Slot *</label>
+<select class="w-full px-space-md py-space-sm rounded bg-surface-container-lowest text-secondary font-body-md text-body-md focus:outline-none focus:ring-1 focus:ring-primary-container">
+<option>Morning (06:00 AM – 08:00 AM)</option>
+<option>Lunch Power (12:00 PM – 01:30 PM)</option>
+<option>Late Afternoon (04:30 PM – 06:00 PM)</option>
+<option>Prime Evening (06:30 PM – 09:30 PM)</option>
+</select>
+</div>
+</div>
+<!-- Gear Rental & Waiver Checkboxes -->
+<div class="flex flex-col gap-space-sm pt-space-xs">
+<label class="flex items-center gap-space-sm cursor-pointer select-none">
+<input checked="" class="w-4 h-4 rounded bg-surface-container-lowest accent-primary-container cursor-pointer" type="checkbox"/>
+<span class="font-body-sm text-body-sm text-secondary">I require arena rental boxing gloves and hand wrap provisioning.</span>
+</label>
+<label class="flex items-center gap-space-sm cursor-pointer select-none">
+<input class="w-4 h-4 rounded bg-surface-container-lowest accent-primary-container cursor-pointer" required="" type="checkbox"/>
+<span class="font-body-sm text-body-sm text-on-surface-variant">I agree to arena safety protocols, ring sports etiquette, and physical liability guidelines.</span>
+</label>
+</div>
+<!-- Submit Button & Feedback Message Area -->
+<div class="pt-space-sm flex flex-col gap-space-sm">
+<button class="w-full py-space-md rounded bg-primary-container text-on-primary-container font-headline-sm text-label-lg uppercase tracking-wider font-bold shadow-xl hover:brightness-110 transition-all flex items-center justify-center gap-space-sm" type="submit">
+<span>Confirm Session Booking</span>
+<span class="material-symbols-outlined text-[18px]">sports_mma</span>
+</button>
+<div class="hidden p-space-sm rounded bg-secondary-container/20 text-secondary-fixed font-label-md text-label-md uppercase text-center font-bold" id="booking-confirmation-msg">
+                ✓ Booking Request Received. Arena Concierge will contact you via WhatsApp / SMS within 15 minutes.
+              </div>
+</div>
+</form>
+</div>
+</div>
+</div>
+</section>
+<!-- ARENA PHOTO MOSAIC PREVIEW -->
+<section class="w-full bg-surface py-space-lg">
+<div class="max-w-[1440px] mx-auto px-margin-mobile md:px-gutter lg:px-margin">
+<div class="grid grid-cols-2 md:grid-cols-4 gap-space-sm">
+<div class="h-44 rounded-lg overflow-hidden relative">
+<div class="w-full h-full bg-cover bg-center hover:scale-105 transition-transform duration-500" data-alt="Close up shot of leather boxing gloves resting on top of ring ropes with chalk dust in an ambient dark gym lighting environment." style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuAlvXvXziMxyjd7ecraz4VJGO6Rf4OEzQYKYTmwqSY96f6EyAawau2Ss1WhF7PToDsHEgfGAuYAZXwL1L7TS8jRMWz2H3PMpBE5k6fDYyzy-_LZPyEvAn6c8-NBjD1y39szHTYHq-t_A-dRKrMhhVfGIKomJqXu9sbpyIbsSw4JgmT-E5eYiepzmGEO6LIcor43b37C2rP3Id94tzqH-Q1rVH0_Xg8f18OaoD8mOBxT')"></div>
+</div>
+<div class="h-44 rounded-lg overflow-hidden relative">
+<div class="w-full h-full bg-cover bg-center hover:scale-105 transition-transform duration-500" data-alt="Side profile of a boxer throwing a powerful cross at an aqua heavy bag causing water displacement, captured in cinematic high contrast lighting." style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuAohAVtieczab7w1hZqWEOcKCy30aMWfotFUR4fOEeARDOxI0Sn9g4kjvqug44PSUzc5j9vhImx8MkPI_t36yJuUOc6uNgY7sDDq9eyZhlEuAAecco4bYxKqppFRoBu9qVI87DfumlHC32KLro_fxpoJwiRYF3_RBgtSlrOk2MrdewKO7NDYcV5C-m9hvTwtBqd3zWgAPl072K9rOIfOepH2D4Nn4dsbrhEyIwkPy0V')"></div>
+</div>
+<div class="h-44 rounded-lg overflow-hidden relative">
+<div class="w-full h-full bg-cover bg-center hover:scale-105 transition-transform duration-500" data-alt="Low angle wide shot of the elevated regulation competition ring ropes under a clean directional arena spot beam in deep charcoal ambiance." style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuDwHXpy6afNVhMG-TOE0j3fG17w_c9WtctqpQbI0RZVewTnVEep1gLZE8L4b4xowVTtAe7wmt6u5v7qRwf1yunBTW---JmvWbPwC1Vax5kCXIFhutL4Pl8ZG7osUT56rg2DgvX4XyKBlSA_LZrDoqAtUf5UWT1Dj3EYnJn0u-dnIIRxlYA8roMl-6e3yKmaKnMbUprApIdWfEk1GhYxhJhvyeesFmvlQwODUocdGVuN')"></div>
+</div>
+<div class="h-44 rounded-lg overflow-hidden relative">
+<div class="w-full h-full bg-cover bg-center hover:scale-105 transition-transform duration-500" data-alt="Coach holding punch mitts inside the ring with motion blur of quick jabs and energetic sweat reflections in the dark arena." style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuDHFJqv2zAb1KnDwkiSNDpLPamZ3r2SnInwZIXoCop6oOjLU8HZ8cyszpFWBonQM9EhuiqH3foJ5rNvJHESfCQX-n_Ef_7ISQpUoFYaP2qUrSiMwiEVWulhKO_R0WAG61jxmzQhn8chZD11w_Qw4GUqp-dL9qMkLrFLS0AoX-A09Ml1kpoXja-OqwTJE0HLz3lqWsi5WRVM5XmXDdxK-KZl9WvH4SCCB0Ka7AgwBMKB')"></div>
+</div>
+</div>
+</div>
+</section>
+</div>
+<!-- CLIENT-SIDE MICRO-INTERACTIONS SCRIPT -->
+<script>
+  function filterDay(filter, activeBtn) {
+    // Toggle active state on filter buttons
+    const buttons = document.querySelectorAll('.schedule-day-btn');
+    buttons.forEach(btn => {
+      btn.classList.remove('bg-primary-container', 'text-on-primary-container');
+      btn.classList.add('bg-surface-container', 'text-on-surface-variant');
+    });
+    activeBtn.classList.remove('bg-surface-container', 'text-on-surface-variant');
+    activeBtn.classList.add('bg-primary-container', 'text-on-primary-container');
+
+    // Filter table rows
+    const rows = document.querySelectorAll('#schedule-tbody .schedule-row');
+    rows.forEach(row => {
+      if (filter === 'all') {
+        row.style.display = '';
+      } else {
+        const days = row.getAttribute('data-day') || '';
+        if (days.includes(filter)) {
+          row.style.display = '';
+        } else {
+          row.style.display = 'none';
+        }
+      }
+    });
+  }
+
+  function handleBoxingBooking(event) {
+    event.preventDefault();
+    const confirmMsg = document.getElementById('booking-confirmation-msg');
+    if (confirmMsg) {
+      confirmMsg.classList.remove('hidden');
+      setTimeout(() => {
+        confirmMsg.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+      }, 100);
+    }
+  }
+</script></main><footer class="w-full bg-surface-container-lowest border-t border-white/10"><div class="max-w-[1440px] mx-auto px-margin-mobile md:px-gutter lg:px-margin py-space-xl"><div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-gutter"><div class="flex flex-col gap-space-md"><div class="flex items-center gap-space-sm"><img alt="Elite Arena Logo" class="h-7 w-auto object-contain" src="https://lh3.googleusercontent.com/aida/ALJJyrClLeRgVG5aqKzpzy0dW02V2NZsbmYS4XhwerD2-J2ENemfQlPLu9R6TQcu9XAAvmB5gwwzmrXbZKNJGsWXUfuN-lAEMRNjpgZAl9l3kINZQdEOgmpqmT0pfmanP8H6Ic6nz9vYi91j3u_qrEnGCdUXA-i4zSrqf_NgeXnTf4rzfq4jWebSS0M02XnxhZ_B1j3vX3pzwaaHyKIE7Ta4a9qopYD1VGm96RkNCBMN-1cepQ"/><span class="font-headline-sm text-headline-sm uppercase tracking-wider text-secondary leading-none">ELITE ARENA</span></div><p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">The premier high-output sports facility engineered for championship performance. Olympic-grade badminton, pro-tier combat arenas, and raw athletic conditioning under one roof.</p><div class="flex items-center gap-space-sm pt-space-xs"><a aria-label="Sports Portal" class="w-8 h-8 rounded-lg bg-surface-container flex items-center justify-center text-on-surface hover:text-primary-container hover:bg-surface-container-high transition-colors" href="#"><span class="material-symbols-outlined text-[18px]">sports_mma</span></a><a aria-label="Arena Location" class="w-8 h-8 rounded-lg bg-surface-container flex items-center justify-center text-on-surface hover:text-primary-container hover:bg-surface-container-high transition-colors" href="#"><span class="material-symbols-outlined text-[18px]">location_on</span></a><a aria-label="Video Feed" class="w-8 h-8 rounded-lg bg-surface-container flex items-center justify-center text-on-surface hover:text-primary-container hover:bg-surface-container-high transition-colors" href="#"><span class="material-symbols-outlined text-[18px]">smart_display</span></a><a aria-label="Direct Line" class="w-8 h-8 rounded-lg bg-surface-container flex items-center justify-center text-on-surface hover:text-primary-container hover:bg-surface-container-high transition-colors" href="#"><span class="material-symbols-outlined text-[18px]">call</span></a></div></div><div class="flex flex-col gap-space-sm"><h3 class="font-headline-sm text-title-md uppercase text-secondary tracking-wide">Sports Facilities</h3><ul class="flex flex-col gap-space-xs font-body-sm text-body-sm text-on-surface-variant"><li class="flex items-center gap-space-xs"><span class="w-1.5 h-1.5 rounded-full bg-outline"></span><a class="hover:text-secondary transition-colors" data-path="gym" href="#">Gym &amp; Strength Hub</a></li><li class="flex items-center gap-space-xs"><span class="w-1.5 h-1.5 rounded-full bg-primary-container"></span><a class="hover:text-secondary transition-colors" data-path="boxing" href="#">Pro Boxing Arena &amp; Ring</a></li><li class="flex items-center gap-space-xs"><span class="w-1.5 h-1.5 rounded-full bg-secondary-fixed"></span><a class="hover:text-secondary transition-colors" data-path="badminton" href="#">Olympic Badminton Courts</a></li><li class="flex items-center gap-space-xs"><span class="w-1.5 h-1.5 rounded-full bg-outline"></span><a class="hover:text-secondary transition-colors" data-path="schedule" href="#">High-Performance Recovery Zone</a></li><li class="flex items-center gap-space-xs"><span class="w-1.5 h-1.5 rounded-full bg-outline"></span><a class="hover:text-secondary transition-colors" data-path="membership" href="#">Tournament Spectator Lounge</a></li></ul></div><div class="flex flex-col gap-space-sm"><h3 class="font-headline-sm text-title-md uppercase text-secondary tracking-wide">Opening Hours</h3><div class="flex flex-col gap-space-xs font-body-sm text-body-sm text-on-surface-variant"><div class="flex items-center justify-between pb-space-xs border-b border-white/5"><span>Monday – Friday</span><span class="text-secondary font-label-md text-label-md">05:30 AM – 11:00 PM</span></div><div class="flex items-center justify-between pb-space-xs border-b border-white/5"><span>Saturday</span><span class="text-secondary font-label-md text-label-md">05:30 AM – 11:00 PM</span></div><div class="flex items-center justify-between pb-space-xs border-b border-white/5"><span>Sunday</span><span class="text-secondary font-label-md text-label-md">05:30 AM – 11:00 PM</span></div><div class="mt-space-xs inline-flex items-center gap-space-xs text-secondary-fixed font-label-sm text-label-sm uppercase"><span class="w-2 h-2 rounded-full bg-secondary-fixed animate-pulse"></span>Arena Active • All Courts Operational</div></div></div><div class="flex flex-col gap-space-sm"><h3 class="font-headline-sm text-title-md uppercase text-secondary tracking-wide">Stay Ahead</h3><p class="font-body-sm text-body-sm text-on-surface-variant">Receive championship invitations, court alerts, and tournament access drops.</p><form class="flex flex-col gap-space-xs" onsubmit="event.preventDefault();"><div class="relative flex items-center"><input class="w-full px-space-md py-space-xs rounded-lg bg-surface-container border border-white/10 text-secondary placeholder:text-on-surface-variant font-body-sm text-body-sm focus:outline-none focus:border-primary-container" placeholder="Enter athlete email" type="email"/><button aria-label="Subscribe" class="absolute right-1 px-space-sm py-1 rounded bg-primary-container text-on-primary-container font-label-sm text-label-sm uppercase font-bold hover:brightness-110 transition-all" type="submit"><span class="material-symbols-outlined text-[16px]">arrow_forward</span></button></div><span class="font-label-sm text-label-sm text-on-surface-variant/70">Direct inquiries: support@elitearena.com</span></form></div></div><div class="mt-space-xl pt-space-lg border-t border-white/10 flex flex-col md:flex-row items-center justify-between gap-space-md font-body-sm text-body-sm text-on-surface-variant"><div class="flex items-center gap-space-xs">© 2025 ELITE ARENA Sports Club. All rights reserved.</div><div class="flex items-center gap-space-md font-label-sm text-label-sm uppercase tracking-wider"><a class="hover:text-secondary transition-colors" href="#">Privacy Policy</a><a class="hover:text-secondary transition-colors" href="#">Terms of Play</a><a class="hover:text-secondary transition-colors" href="#">Arena Regulations</a><a class="hover:text-secondary transition-colors" href="#">Emergency Protocols</a></div></div></div></footer></body></html>
